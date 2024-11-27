@@ -4,5 +4,6 @@ pipeline{
 
     stage('TESTING'){
       echo "TEsting is done"
+    }
   }
 }
