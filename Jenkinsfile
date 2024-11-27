@@ -1,6 +1,6 @@
 pipeline {
     agent any 
-    environmental {
+    environment {
         GIT_URL="https://github.com/sanagamesh/AWS_works"
         GIT_CREDENTAILSID='jenkins'
         GIT_BRANCH='main'
