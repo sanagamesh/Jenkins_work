@@ -1,11 +1,20 @@
-pipeline{
- agent any
-  stages{
-
-    stage('TESTING'){
-     steps{
-      echo "TEsting is done"
-     }
+pipeline {
+    agent any 
+    stages {
+        stage('Build') { 
+            steps {
+                // 
+            }
+        }
+        stage('Test') { 
+            steps {
+                // 
+            }
+        }
+        stage('Deploy') { 
+            steps {
+                // 
+            }
+        }
     }
-  }
 }
